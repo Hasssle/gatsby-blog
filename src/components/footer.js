@@ -3,6 +3,6 @@ import footerStyles from "../styles/footer.module.css"
 
 export default () => (
   <footer className={footerStyles.footer}>
-    <p>Footer</p>
+    <p>Web Dev Blog 2020</p>
   </footer>
 )

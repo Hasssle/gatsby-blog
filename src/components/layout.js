@@ -11,7 +11,8 @@ export default ({ children }) => {
       query {
         site {
           siteMetadata {
-            title
+            description
+            lang
           }
         }
       }
@@ -21,8 +22,8 @@ export default ({ children }) => {
   return (
     <div>
       <SEO
-        title={data.site.siteMetadata.title}
         description={data.site.siteMetadata.description}
+        lang={data.site.siteMetadata.lang}
       />
       <Header />
       <div className={layoutStyles.container}>{children}</div>

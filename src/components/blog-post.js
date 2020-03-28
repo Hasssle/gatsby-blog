@@ -10,6 +10,9 @@ export default ({ data }) => {
       <SEO title={post.frontmatter.title} description={post.excerpt} />
       <div>
         <h1>{post.frontmatter.title}</h1>
+        <span>
+              <small>{post.timeToRead} min read</small>
+            </span>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
@@ -25,6 +28,7 @@ export const query = graphql`
         date
       }
       excerpt
+      timeToRead
     }
   }
 `

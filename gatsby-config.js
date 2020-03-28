@@ -7,9 +7,10 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Gatsby Blog`,
-    description: `A gatsby blog about all things code and security`,
-    author: `Gats B`,
+    title: `Web Dev Blog`,
+    description: `An online blog about all things web development and security`,
+    lang: `en`,
+    author: `Hassan Corrigan`,
   },
   plugins: [
     {
