@@ -4,7 +4,7 @@ import headerStyles from "../styles/header.module.css"
 
 export default () => (
   <header className={headerStyles.header}>
-    <Link to="/"><h1>Web Dev Blog</h1></Link>
+    <h1><Link to="/">Web Dev Blog</Link></h1>
     <nav>
       <ul>
         <li>
